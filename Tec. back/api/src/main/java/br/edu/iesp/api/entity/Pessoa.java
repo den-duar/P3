@@ -1,5 +1,8 @@
 package br.edu.iesp.api.entity;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Pessoa {
 	
 	private String nome;
