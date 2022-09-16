@@ -13,6 +13,6 @@ public class Aplicacao {
         System.out.println("O salario de " + func1.getNome() + " é: " + func1.getSalario());
         func1.reajustarSalario(10);
         System.out.println("O salario de " + func1.getNome() + " apos o ajuste, é: " + func1.getSalario());
-        System.out.println("O cliente " + cli1.getNome() + "tem a profissão de: " + cli1.getProfissao().getProfissao());
+        System.out.println("O cliente " + cli1.getNome() + " tem a profissão de: " + cli1.getProfissao().getProfissao());
     }
 }
