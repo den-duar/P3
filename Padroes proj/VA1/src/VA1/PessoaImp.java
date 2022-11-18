@@ -19,4 +19,9 @@ public class PessoaImp implements Pessoa{
     public String getNome() {
         return this.nome;
     }
+
+    @Override
+    public String toString(){
+        return "nome: " + this.nome + "| cpf: " + this.cpf + "\n";
+    }
 }
